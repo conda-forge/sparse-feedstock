@@ -1,6 +1,6 @@
 {% set name = "sparse" %}
-{% set version = "0.4.0" %}
-{% set sha256 = "66b968a54e1482d624114844781d740bb493ea85373cf645d4b7e525c749a877" %}
+{% set version = "0.4.1" %}
+{% set sha256 = "4c770db50eda4922f09801f37ba065075f844e2415bd4ebaea9fa3f9ba89ad57" %}
 
 package:
   name: {{ name|lower }}
@@ -34,7 +34,7 @@ about:
   home: https://github.com/pydata/sparse
   license: BSD-3-Clause
   license_family: BSD
-  license_file: LICENSE.rst
+  license_file: LICENSE
   summary: 'Sparse multi-dimensional arrays for the PyData ecosystem'
 
   description: |
