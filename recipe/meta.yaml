@@ -24,7 +24,7 @@ requirements:
     - python >=3.5
     - numpy >=1.13
     - scipy >=0.19
-    - numba >=0.45
+    - numba >=0.49
 
 test:
   imports:
