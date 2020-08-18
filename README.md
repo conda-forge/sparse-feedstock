@@ -5,7 +5,7 @@ Home: https://github.com/pydata/sparse
 
 Package license: BSD-3-Clause
 
-Feedstock license: BSD 3-Clause
+Feedstock license: BSD-3-Clause
 
 Summary: Sparse multi-dimensional arrays for the PyData ecosystem
 
