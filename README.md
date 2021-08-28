@@ -11,7 +11,7 @@ Summary: Sparse multi-dimensional arrays for the PyData ecosystem
 
 Development: https://github.com/pydata/sparse
 
-Documentation: https://sparse.pydata.org/en/0.12.0/
+Documentation: https://sparse.pydata.org/en/0.13.0/
 
 sparse implements sparse multidimensional arrays on top of Numpy
 and scipy.sparse. It tries to mimic Numpy's ndarray API.
@@ -44,6 +44,7 @@ Installing `sparse` from the `conda-forge` channel can be achieved by adding `co
 
 ```
 conda config --add channels conda-forge
+conda config --set channel_priority strict
 ```
 
 Once the `conda-forge` channel has been enabled, `sparse` can be installed with:
