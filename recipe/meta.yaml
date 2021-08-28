@@ -1,6 +1,6 @@
 {% set name = "sparse" %}
-{% set version = "0.12.0" %}
-{% set sha256 = "50a4b296a055ff39acbccac7334ad571924ef9d06e4b00e578a1ec32e21aed4e" %}
+{% set version = "0.13.0" %}
+{% set sha256 = "c1f37c2097dfb017789ade963cebd199151b015aa6a30eece2359eb4e3c545e1" %}
 
 package:
   name: {{ name|lower }}
@@ -18,10 +18,10 @@ build:
 
 requirements:
   build:
-    - python >=3.6
+    - python >=3.7
     - pip
   run:
-    - python >=3.6
+    - python >=3.7
     - numpy >=1.17
     - scipy >=0.19
     - numba >=0.49
