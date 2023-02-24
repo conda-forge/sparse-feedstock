@@ -1,6 +1,6 @@
 {% set name = "sparse" %}
-{% set version = "0.13.0" %}
-{% set sha256 = "c1f37c2097dfb017789ade963cebd199151b015aa6a30eece2359eb4e3c545e1" %}
+{% set version = "0.14.0" %}
+{% set sha256 = "5f5827a37f6cd6f6730a541f994c95c60a3ae2329e01f4ba21ced5339aea0098" %}
 
 package:
   name: {{ name|lower }}
@@ -8,20 +8,20 @@ package:
 
 source:
   fn: {{ name }}-{{ version }}.tar.gz
-  url: https://github.com/pydata/{{ name }}/archive/{{ version }}.tar.gz
+  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
   sha256: {{ sha256 }}
 
 build:
   noarch: python
   number: 0
-  script: {{ PYTHON }} -m pip install . -vv
+  script: {{ PYTHON }} -m pip install . -vvv
 
 requirements:
   build:
-    - python >=3.7
+    - python >=3.8
     - pip
   run:
-    - python >=3.7
+    - python >=3.8
     - numpy >=1.17
     - scipy >=0.19
     - numba >=0.49
