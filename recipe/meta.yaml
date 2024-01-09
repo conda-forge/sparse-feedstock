@@ -1,6 +1,6 @@
 {% set name = "sparse" %}
-{% set version = "0.14.0" %}
-{% set sha256 = "5f5827a37f6cd6f6730a541f994c95c60a3ae2329e01f4ba21ced5339aea0098" %}
+{% set version = "0.15.0" %}
+{% set sha256 = "25e180d68a3981387d05bc7a809bd834a211472931f76e5c5b846c9f80405450" %}
 
 package:
   name: {{ name|lower }}
@@ -14,7 +14,7 @@ source:
 build:
   noarch: python
   number: 0
-  script: {{ PYTHON }} -m pip install . -vvv
+  script: {{ PYTHON }} -m pip install --no-deps -vvv .
 
 requirements:
   build:
