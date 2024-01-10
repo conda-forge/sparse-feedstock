@@ -1,6 +1,6 @@
 {% set name = "sparse" %}
-{% set version = "0.15.0" %}
-{% set sha256 = "25e180d68a3981387d05bc7a809bd834a211472931f76e5c5b846c9f80405450" %}
+{% set version = "0.15.1" %}
+{% set sha256 = "973adcb88a8db8e3d8047953331e26d3f64a5657f9b46a6b859c47663c3eef99" %}
 
 package:
   name: {{ name|lower }}
