@@ -1,24 +1,24 @@
 {% set name = "sparse" %}
 {% set version = "0.15.1" %}
-{% set sha256 = "973adcb88a8db8e3d8047953331e26d3f64a5657f9b46a6b859c47663c3eef99" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  fn: {{ name }}-{{ version }}.tar.gz
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: {{ sha256 }}
+  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/sparse-{{ version }}.tar.gz
+  sha256: 973adcb88a8db8e3d8047953331e26d3f64a5657f9b46a6b859c47663c3eef99
 
 build:
   noarch: python
-  number: 0
-  script: {{ PYTHON }} -m pip install --no-deps -vvv .
+  script: {{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
+  number: 1
 
 requirements:
-  build:
+  host:
     - python >=3.8
+    - setuptools >=64
+    - setuptools-scm >=8
     - pip
   run:
     - python >=3.8
@@ -29,6 +29,10 @@ requirements:
 test:
   imports:
     - sparse
+  commands:
+    - pip check
+  requires:
+    - pip
 
 about:
   home: https://github.com/pydata/sparse
