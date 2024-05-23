@@ -1,5 +1,5 @@
 {% set name = "sparse" %}
-{% set version = "0.15.3" %}
+{% set version = "0.15.4" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/sparse-{{ version }}.tar.gz
-  sha256: b69fa20716af820c4ddba874ca59322054c77c18a3ba761d7d4d774e7eab339f
+  sha256: d4b1c57d24ff0f64f2fd5b5a95b49b7fb84ed207a26d7d58ce2764dcc5c72b84
 
 build:
   noarch: python
