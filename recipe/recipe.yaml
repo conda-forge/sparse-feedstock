@@ -18,12 +18,12 @@ build:
 
 requirements:
   host:
-    - python >=3.8
+    - python >=3.6,<3.10
     - setuptools >=64
     - setuptools-scm >=8
     - pip
   run:
-    - python >=3.8
+    - python >=3.6,<3.10
     - numpy >=1.13,<2
     - scipy >=0.19
 
@@ -39,7 +39,7 @@ tests:
 
 about:
   license: BSD-3-Clause
-  license_file: LICENSE
+  license_file: LICENSE.rst
   summary: Sparse multi-dimensional arrays for the PyData ecosystem
   description: |
     sparse implements sparse multidimensional arrays on top of Numpy
