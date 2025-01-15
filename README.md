@@ -3,11 +3,15 @@ About sparse-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/sparse-feedstock/blob/main/LICENSE.txt)
 
-
+Home: https://github.com/pydata/sparse
 
 Package license: BSD-3-Clause
 
 Summary: Sparse multi-dimensional arrays for the PyData ecosystem
+
+Development: https://github.com/pydata/sparse
+
+Documentation: https://sparse.pydata.org/en/0.15.5/
 
 sparse implements sparse multidimensional arrays on top of Numpy
 and scipy.sparse. It tries to mimic Numpy's ndarray API.
@@ -147,6 +151,5 @@ Feedstock Maintainers
 =====================
 
 * [@hameerabbasi](https://github.com/hameerabbasi/)
-* [@jakevdp](https://github.com/jakevdp/)
-* [@mrocklin](https://github.com/mrocklin/)
+* [@mtsokol](https://github.com/mtsokol/)
 
