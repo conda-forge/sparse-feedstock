@@ -151,6 +151,5 @@ Feedstock Maintainers
 =====================
 
 * [@hameerabbasi](https://github.com/hameerabbasi/)
-* [@jakevdp](https://github.com/jakevdp/)
-* [@mrocklin](https://github.com/mrocklin/)
+* [@mtsokol](https://github.com/mtsokol/)
 
