@@ -11,7 +11,7 @@ Summary: Sparse multi-dimensional arrays for the PyData ecosystem
 
 Development: https://github.com/pydata/sparse
 
-Documentation: https://sparse.pydata.org/en/0.15.5/
+Documentation: https://sparse.pydata.org/en/0.16.0/
 
 sparse implements sparse multidimensional arrays on top of Numpy
 and scipy.sparse. It tries to mimic Numpy's ndarray API.
