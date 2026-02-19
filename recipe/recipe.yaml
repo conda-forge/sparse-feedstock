@@ -1,8 +1,8 @@
 # yaml-language-server: $schema=https://raw.githubusercontent.com/prefix-dev/recipe-format/main/schema.json
 context:
   name: sparse
-  version: "0.17.0"
-  python_min: "3.10"
+  version: "0.18.0"
+  python_min: "3.11"
 
 package:
   name: ${{ name|lower }}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/${{ name }}-${{ version }}.tar.gz
-  sha256: 6b1ad51a810c5be40b6f95e28513ec810fe1c785923bd83b2e4839a751df4bf7
+  sha256: 57f92661eb0ec0c764b450c72f3c0d869ea7f32e5e4ca0a335f9d6a7d79bbff4
 
 build:
   number: 0
