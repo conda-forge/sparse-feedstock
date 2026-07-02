@@ -11,7 +11,7 @@ Summary: Sparse multi-dimensional arrays for the PyData ecosystem
 
 Development: https://github.com/pydata/sparse
 
-Documentation: https://sparse.pydata.org/en/0.18.0/
+Documentation: https://sparse.pydata.org/en/0.19.0/
 
 sparse implements sparse multidimensional arrays on top of Numpy
 and scipy.sparse. It tries to mimic Numpy's ndarray API.
@@ -20,10 +20,11 @@ Current build status
 ====================
 
 
-<table><tr><td>All platforms:</td>
+<table><tr>
+    <td>All platforms:</td>
     <td>
-      <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=3542&branchName=main">
-        <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/sparse-feedstock?branchName=main">
+      <a href="https://github.com/conda-forge/sparse-feedstock/actions/workflows/conda-build.yml">
+        <img src="https://github.com/conda-forge/sparse-feedstock/actions/workflows/conda-build.yml/badge.svg?event=push&branch=main">
       </a>
     </td>
   </tr>
