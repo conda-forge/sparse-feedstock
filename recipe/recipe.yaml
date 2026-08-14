@@ -30,12 +30,15 @@ requirements:
 
 tests:
   - python:
+      python_version:
+        - ${{ python_min }}.*
+        - "3.14.*"
       imports:
         - sparse
   - requirements:
       run:
         - pip
-        - python ${{ python_min }}.*
+        - python
     script:
       - pip check
 
